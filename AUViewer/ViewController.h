@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MPMediaPickerControllerDelegate, UIAlertViewDelegate>{
+    
+}
+
+@property (weak, nonatomic) IBOutlet UIButton *pickSongButton;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+
+- (IBAction)pickASong:(id)sender;
 
 @end

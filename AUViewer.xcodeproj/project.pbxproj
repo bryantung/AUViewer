@@ -479,6 +479,7 @@
 				DE904D2E17034B81007573B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE904D2F17034B81007573B5 /* Build configuration list for PBXNativeTarget "AUViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				DE904D3117034B81007573B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
